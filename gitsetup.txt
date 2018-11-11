@@ -1,0 +1,27 @@
+cd desktop/abc
+ls -a
+git init
+cat .git/config
+git config user.name "arrow1996"
+
+touch example.txt
+git status
+git add example.txt
+git commit -m "first commit"
+git push
+
+
+git remote add origin <repository link in https or url of the reposioty in chrome tab>
+
+git push origin
+git push --set-upstream origin master
+
+
+//then username and password will be asked
+
+<username>
+<password>
+
+
+
+
